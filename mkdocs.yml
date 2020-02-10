@@ -47,6 +47,19 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.magiclink
   - pymdownx.tasklist
+  - toc:
+      permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
+extra_css:
+  - 'stylesheets/extra.css'
+  - https://unpkg.com/mermaid@7.1.2/dist/mermaid.css
+  
+extra_javascript:
+  - https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js
 
 # Plugins
 plugins:
@@ -59,6 +72,8 @@ nav:
     - Set Up : Mkdocs Documentation Setup.md
     - Admonition : Extensions/Admonition.md
     - CodeHilite : Extensions/CodeHilite.md
-    - PyMarkdown  : Extensions/PyMarkdown.md
+    - PyMarkdown : Extensions/PyMarkdown.md
+    - Mermaid : Extensions/mermaid.md
+    - Customization : Customization.md
 
 use_directory_urls: false
