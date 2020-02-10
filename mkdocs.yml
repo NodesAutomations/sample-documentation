@@ -1,18 +1,14 @@
-site_name: STAAD Grillage Add-in
-site_description: STAAD Grillage Add-in Documentaion
+site_name: Sample Documentaion Project
+site_description: Sample Documentaion
 site_author: Vivek Patel
-site_url: https://nodesautomations.github.io/STAADGrillageAddin
+site_url: https://nodesautomations.com
 
 # Copyright
 copyright: 'Copyright &copy; 2019 - 2020 Nodes Automations'
 
-nav:
-    - Getting started: index.md
-
 # Configuration
 theme:
-  name: 'material'
-
+  name: material
     # 404 page
   static_templates:
     - 404.html
@@ -22,14 +18,47 @@ theme:
   search_index_only: true
 
    # Default values, taken from mkdocs_theme.yml
-  language: en
   feature:
     tabs: false
   palette:
-    primary: red
+    primary: indigo
     accent: indigo
   font:
     text: Roboto
     code: Roboto Mono
+
+# Customization
+extra:
+  social:
+    - type: globe
+      link: https://www.nodesautomations.com
+    - type: linkedin
+      link: https://www.linkedin.com/in/vivekpatel-nodesautomations/
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+      linenums: true
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.inlinehilite
+  - pymdownx.mark
+  - pymdownx.magiclink
+  - pymdownx.tasklist
+
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+nav:
+    - Getting started: index.md
+    - Set Up : Mkdocs Documentation Setup.md
+    - Admonition : Extensions/Admonition.md
+    - CodeHilite : Extensions/CodeHilite.md
+    - PyMarkdown  : Extensions/PyMarkdown.md
 
 use_directory_urls: false
