@@ -1,0 +1,8 @@
+blockquote {
+    border-radius: 5px;
+    background-color:rgb(255, 234, 182,1);
+}
+.md-typeset blockquote {
+    border-left: 0rem solid rgba(0,0,0,.26);
+    color: black;
+}
