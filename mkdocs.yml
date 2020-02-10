@@ -1,7 +1,35 @@
-site_name: Nodes Automations
+site_name: STAAD Grillage Add-in
+site_description: STAAD Grillage Add-in Documentaion
+site_author: Vivek Patel
+site_url: https://nodesautomations.github.io/STAADGrillageAddin
+
+# Copyright
+copyright: 'Copyright &copy; 2019 - 2020 Nodes Automations'
+
 nav:
     - Getting started: index.md
 
-theme: material
-   
+# Configuration
+theme:
+  name: 'material'
+
+    # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+   # Default values, taken from mkdocs_theme.yml
+  language: en
+  feature:
+    tabs: false
+  palette:
+    primary: red
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+
 use_directory_urls: false
