@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-     <loc>None</loc>
+     <loc>https://nodesautomations.com/index.html</loc>
+     <lastmod>2020-02-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://nodesautomations.com/Mkdocs Documentation Setup.html</loc>
+     <lastmod>2020-02-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://nodesautomations.com/Extensions/Admonition.html</loc>
+     <lastmod>2020-02-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://nodesautomations.com/Extensions/CodeHilite.html</loc>
+     <lastmod>2020-02-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://nodesautomations.com/Extensions/PyMarkdown.html</loc>
      <lastmod>2020-02-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
