@@ -1,0 +1,7 @@
+site_name: Nodes Automations
+nav:
+    - Getting started: index.md
+
+theme: material
+   
+use_directory_urls: false
