@@ -78,5 +78,6 @@ nav:
     - PyMarkdown : Extensions/PyMarkdown.md
     - Mermaid : Extensions/mermaid.md
     - Customization : Customization.md
+    - Downloads : Downloads.md
 
 use_directory_urls: false
