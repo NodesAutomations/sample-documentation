@@ -23,10 +23,13 @@ theme:
   palette:
     primary: indigo
     accent: indigo
+  logo: 
+    icon: 'home'
   font:
     text: Roboto
     code: Roboto Mono
 
+  
 # Customization
 extra:
   social:
