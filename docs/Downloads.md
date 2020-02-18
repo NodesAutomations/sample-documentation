@@ -11,3 +11,6 @@
 - Unzip All Files
 - Open **index.html** File
 
+### QR Code For Mobile
+
+<img src="Assets/Images/qr-code.svg" style="zoom:25%;" />
