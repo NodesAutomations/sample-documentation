@@ -40,16 +40,17 @@ extra:
 
 # Extensions
 markdown_extensions:
-  - markdown.extensions.admonition
-  - markdown.extensions.codehilite:
+  - attr_list # For Image Resize
+  - markdown.extensions.admonition # For Block Style
+  - markdown.extensions.codehilite: # code syntax Highlighting
       guess_lang: false
       linenums: true
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.inlinehilite
-  - pymdownx.mark
-  - pymdownx.magiclink
-  - pymdownx.tasklist
+  - pymdownx.caret # super Script
+  - pymdownx.critic # enables the tracking of changes (additions, deletions and comments) on documents
+  - pymdownx.inlinehilite # inline code highlighting
+  - pymdownx.mark #Mark adds the ability to insert <mark></mark> tags for highlighting
+  - pymdownx.magiclink # auto-linking HTTP, FTP and email links.
+  - pymdownx.tasklist # adds GFM style task lists.
   - toc:
       permalink: true
   - pymdownx.superfences:
