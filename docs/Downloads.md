@@ -12,4 +12,4 @@
 - Open **index.html** File
 
 ### QR Code For Mobile
-[![QR Code for Grillage Staad Docs](assets/images/qr-code.svg)](assets/images/qr-code.svg)
+![](assets/images/qr-code.svg){: style="height:300px;width:300px"}
