@@ -4,11 +4,12 @@ site_author: Vivek Patel
 site_url: https://nodesautomations.com
 
 # Copyright
-copyright: 'Copyright &copy; 2019 - 2020 Nodes Automations'
+copyright: 'Copyright &copy; 2018 - 2020 Nodes Automations'
 
 # Configuration
 theme:
   name: material
+  custom_dir: 'theme'
     # 404 page
   static_templates:
     - 404.html

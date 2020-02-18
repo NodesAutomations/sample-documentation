@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block footer %}
+
+{% import "partials/language.html" as lang with context %}
+
+<!-- Application footer -->
+<footer class="md-footer">
+
+    <!-- Further information -->
+    <div class="md-footer-meta md-typeset">
+        <div class="md-footer-meta__inner md-grid">
+
+            <!-- Copyright and theme information -->
+            <div class="md-footer-copyright">
+                {% if config.copyright %}
+                <div class="md-footer-copyright__highlight">
+                    {{ config.copyright }}
+                </div>
+                {% endif %}                
+                <div class="md-footer-copyright__highlight">
+                    All Rights Reserved
+                </div>                
+            </div>
+           
+            <!-- Social links -->
+            {% block social %}
+            {% include "partials/social.html" %}
+            {% endblock %}
+        </div>
+    </div>
+</footer>
+
+{% endblock %}
