@@ -1,7 +1,7 @@
 site_name: Sample Documentation Project
 site_description: Sample Documentation
 site_author: Vivek Patel
-site_url: https://nodesautomations.com
+site_url: https://nodesautomations.github.io/sample-documentation
 
 # Copyright
 copyright: 'Copyright &copy; 2018 - 2020 Nodes Automations'
@@ -38,6 +38,8 @@ extra:
       link: https://www.nodesautomations.com
     - type: linkedin
       link: https://www.linkedin.com/in/vivekpatel-nodesautomations/
+    - type: envelope
+      link: mailto:vivek@nodesautomations.com
 
 # Extensions
 markdown_extensions:
