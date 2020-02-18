@@ -19,7 +19,7 @@ theme:
 
    # Default values, taken from mkdocs_theme.yml
   feature:
-    tabs: false
+    tabs: true
   palette:
     primary: indigo
     accent: indigo
@@ -74,10 +74,11 @@ plugins:
 nav:
     - Getting started: index.md
     - Set Up : Mkdocs Documentation Setup.md
-    - Admonition : Extensions/Admonition.md
-    - CodeHilite : Extensions/CodeHilite.md
-    - PyMarkdown : Extensions/PyMarkdown.md
-    - Mermaid : Extensions/mermaid.md
+    - Extensions:
+      - Admonition : Extensions/Admonition.md
+      - CodeHilite : Extensions/CodeHilite.md
+      - PyMarkdown : Extensions/PyMarkdown.md
+      - Mermaid : Extensions/mermaid.md
     - Customization : Customization.md
     - Downloads : Downloads.md
 
