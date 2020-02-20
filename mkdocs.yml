@@ -36,6 +36,8 @@ extra:
   social:
     - type: globe
       link: https://www.nodesautomations.com
+    - type: youtube
+      link: https://www.youtube.com/channel/UCnrjW31os9P6_MtSZXt6o-g
     - type: linkedin
       link: https://www.linkedin.com/in/vivekpatel-nodesautomations/
     - type: envelope
