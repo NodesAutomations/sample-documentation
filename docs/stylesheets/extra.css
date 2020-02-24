@@ -21,3 +21,14 @@ h3 {
     color:rgb(51, 51, 51, 1) !important;
 
 }
+
+/* Custom styles to override MkDocs defaults and enhance theme */
+
+/* Unordered list <ul> symbols:
+ * - level 2 is hollow circle
+ * - level 3 is filled square
+ * - ul default is filled disc (bullet)
+ */
+ article ul ul {
+    list-style-type:  square !important;
+}
