@@ -63,6 +63,10 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_div_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+      
 extra_css:
   - 'stylesheets/extra.css'
   - https://unpkg.com/mermaid@8.4.6/dist/mermaid.css

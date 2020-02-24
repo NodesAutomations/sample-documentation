@@ -128,3 +128,15 @@ Task List
     * [ ] Praesent sed risus massa
 * [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
 * [ ] Nulla vel eros venenatis, imperdiet enim id, faucibus nisi
+
+## Emoji
+
+Emoji adds the ability to insert a :shit: ​load of emojis that we use in our daily lives.
+
+```yaml
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+```
+
